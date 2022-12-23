@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Domine&display=swap'); 
+ @import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap'); 
+*{
+ padding: 0;
+ margin: 0;   
+}
+#profile .container-fluid{
+  max-height:450px;
+
+}
+html{
+  scroll-padding-top:9.5rem;
+}
+section{
+  padding: 70px 0px;
+}
+#profile img{
+  width: 40%;
+}
+#profile h2{
+  font-size: 40px;
+ }
+ #profile h4{
+  font-size: 25px;
+ }
+ #profile h6{
+  font-size: 20px;
+ }
+ #profile .btn{
+  font-size: 20px;
+ }
+h2{
+  font-family: 'Domine', serif;
+  font-size: 45px;
+}
+
+.nav-link{
+  font-family: 'Yeseva One', cursive;
+  font-size: 20px;
+  color:rgb(243, 113, 7);
+}
+
+
+footer i{
+  font-size: 30px;
+  border-radius: 50%;
+  background-color:bisque;
+  color: blue;
+}
+.contact .btn{
+padding: 15px 50px;
+border-radius: 30px;
+margin-left: 350px;
+background-color: blue;
+}
+@media (max-width: 480px) {
+    #profile img{
+     width: 50%;
+     margin-top: 50px;
+    }
+      #profile h2{
+        font-size: 15px;
+       }
+       #profile h4{
+        font-size: 15px;
+       }
+       #profile h6{
+        font-size: 15px;
+       }
+       #profile .btn{
+        font-size: 15px;
+       }
+       .contact .btn{
+        margin-left: 100px;
+       }
+       section{
+        padding: 50px 0px;
+      }
+      
+       
+}
